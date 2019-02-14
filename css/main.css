@@ -78,3 +78,16 @@ background-color: rgba(209, 222, 236, 0.281);
     }
 
 }
+@media (max-width:442px){
+    #name h1{
+        
+        font-size: 170%;
+        
+        
+        
+    }
+    #name p{
+        font-size: 100%;
+    }
+
+}
