@@ -1,0 +1,80 @@
+
+/* class selectors */
+.navbar-custom{
+    z-index: 1;
+    width:100%;
+    background-color: rgb(242, 246, 250);
+    
+    
+    
+}
+.cloud1{
+    width: auto;
+    height:auto;
+}
+.mountain{
+    position:absolute ;
+    top: 65%;
+    left:0;
+    right: 0;
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
+    z-index: -1;
+}
+
+.home-div{
+   
+    padding:75px ;
+    padding-bottom: 190px;
+background-color: rgba(209, 222, 236, 0.281);
+   
+}
+.txt-type{
+    border-right:2px solid rgb(25,70,110);
+}
+/* Id selectors */
+#achievement{
+    background-color: rgb(233, 233, 233);
+}
+
+#footer{
+    background-color: rgba(209, 222, 236, 0.281);
+    padding-top:100px;
+    padding-bottom: 50px;
+}
+#footer a{
+    padding-left:10px;
+}
+#name h1{
+    font-size:500%;
+    font-family:'Arizonia', cursive;
+}
+#myself{
+    font-size: 200%;
+    color:rgb(25, 70, 110);
+    font-family: 'Special Elite', cursive;
+}
+@media (max-width:950px){
+    .cloud1{
+        width: 14vw;
+    }
+
+}
+
+@media (max-width:627px){
+    .cloud1{
+        width: 17vw;
+    }
+
+}
+@media (max-width:677px){
+    #name h1{
+        
+        font-size: 4rem;
+        
+        
+        
+    }
+
+}
